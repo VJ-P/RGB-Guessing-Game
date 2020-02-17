@@ -21,7 +21,10 @@ resetButton.addEventListener("click", function(){
         squares[i].style.backgroundColor = colours[i];
     }
     //change header colour
-    h1.style.backgroundColor = "#232323";
+    h1.style.backgroundColor = "steelblue";
+    //reset message and button text to blank
+    messageDisplay.textContent = ""
+    this.textContent = "New Colours"
 })
 
 for(var i = 0; i < squares.length; i++){
